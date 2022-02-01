@@ -1,7 +1,1 @@
-"use strict";
-
-var greet = function greet(name) {
-  console.log("hello ".concat(name));
-};
-
-greet("mario");
+(()=>{"use strict";console.log("dom file");const e=document.querySelector("body"),m=[{name:"a",premium:!0},{name:"b",premium:!1},{name:"c",premium:!0},{name:"d",premium:!0},{name:"e",premium:!1},{name:"f",premium:!1}],o=m.filter((e=>e.premium));e.style.background="peachpuff",(m=>{const o=document.createElement("h1");o.textContent="hello",e.appendChild(o)})(),console.log(m),console.log(o)})();
